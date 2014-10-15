@@ -1,0 +1,13 @@
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\bin\Debug\NEStein.exe.config
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\bin\Debug\NEStein.exe
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\bin\Debug\NEStein.pdb
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\bin\Debug\NEStein.xml
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NES.net.vbprojResolveAssemblyReference.cache
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.FrmConfigKeys.resources
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.FrmMain.resources
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.FrmRender.resources
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.Resources.resources
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NES.net.vbproj.GenerateResource.Cache
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.exe
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.xml
+C:\Users\mitchell.urgero\Documents\GitHub\NEStein\NEStein\obj\x86\Debug\NEStein.pdb
