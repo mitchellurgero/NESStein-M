@@ -221,7 +221,12 @@
     End Sub
 
     Private Sub MnuSS_Click(sender As Object, e As EventArgs) Handles MnuSS.Click
+        Try
 
+            Me.NesScreen.Image.Save("C:\NewFileName.jpg", System.Drawing.Imaging.ImageFormat.Jpeg)
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
 
     Private Sub SobreToolStripMenuItem_Click(sender As Object, e As EventArgs)

@@ -99,6 +99,7 @@ Partial Class FrmMain
         Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripSeparator()
         Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbreRom = New System.Windows.Forms.OpenFileDialog()
+        Me.SaveScreenShot = New System.Windows.Forms.SaveFileDialog()
         CType(Me.NesScreen, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.EmuMenu.SuspendLayout()
         Me.SuspendLayout()
@@ -193,25 +194,25 @@ Partial Class FrmMain
         'PauseToolStripMenuItem
         '
         Me.PauseToolStripMenuItem.Name = "PauseToolStripMenuItem"
-        Me.PauseToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.PauseToolStripMenuItem.Size = New System.Drawing.Size(238, 24)
         Me.PauseToolStripMenuItem.Text = "Pause"
         '
         'ResetToolStripMenuItem
         '
         Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
-        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(238, 24)
         Me.ResetToolStripMenuItem.Text = "Reset"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(172, 6)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(235, 6)
         '
         'DipSwitchToolStripMenuItem
         '
         Me.DipSwitchToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AtivadoToolStripMenuItem1})
         Me.DipSwitchToolStripMenuItem.Name = "DipSwitchToolStripMenuItem"
-        Me.DipSwitchToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.DipSwitchToolStripMenuItem.Size = New System.Drawing.Size(238, 24)
         Me.DipSwitchToolStripMenuItem.Text = "&Dip Switch"
         '
         'AtivadoToolStripMenuItem1
@@ -223,7 +224,7 @@ Partial Class FrmMain
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(172, 6)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(235, 6)
         '
         'FerramentasToolStripMenuItem1
         '
@@ -262,39 +263,39 @@ Partial Class FrmMain
         '
         Me.VideoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZoomToolStripMenuItem, Me.InterpolationToolStripMenuItem, Me.ToolStripMenuItem15, Me.ExibirToolStripMenuItem, Me.ToolStripMenuItem16, Me.PaletteToolStripMenuItem})
         Me.VideoToolStripMenuItem.Name = "VideoToolStripMenuItem"
-        Me.VideoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.VideoToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
         Me.VideoToolStripMenuItem.Text = "&Video"
         '
         'ZoomToolStripMenuItem
         '
         Me.ZoomToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XToolStripMenuItem, Me.XToolStripMenuItem1, Me.ToolStripMenuItem1, Me.TelaCheiaToolStripMenuItem})
         Me.ZoomToolStripMenuItem.Name = "ZoomToolStripMenuItem"
-        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.ZoomToolStripMenuItem.Size = New System.Drawing.Size(164, 24)
         Me.ZoomToolStripMenuItem.Text = "Zoom"
         '
         'XToolStripMenuItem
         '
         Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
-        Me.XToolStripMenuItem.Size = New System.Drawing.Size(147, 24)
+        Me.XToolStripMenuItem.Size = New System.Drawing.Size(149, 24)
         Me.XToolStripMenuItem.Tag = "0"
         Me.XToolStripMenuItem.Text = "1x"
         '
         'XToolStripMenuItem1
         '
         Me.XToolStripMenuItem1.Name = "XToolStripMenuItem1"
-        Me.XToolStripMenuItem1.Size = New System.Drawing.Size(147, 24)
+        Me.XToolStripMenuItem1.Size = New System.Drawing.Size(149, 24)
         Me.XToolStripMenuItem1.Tag = "1"
         Me.XToolStripMenuItem1.Text = "2x"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(144, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(146, 6)
         '
         'TelaCheiaToolStripMenuItem
         '
         Me.TelaCheiaToolStripMenuItem.Name = "TelaCheiaToolStripMenuItem"
-        Me.TelaCheiaToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.TelaCheiaToolStripMenuItem.Size = New System.Drawing.Size(149, 24)
         Me.TelaCheiaToolStripMenuItem.Text = "Full Screen"
         '
         'InterpolationToolStripMenuItem
@@ -348,7 +349,7 @@ Partial Class FrmMain
         '
         Me.ExibirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BGToolStripMenuItem, Me.SpriteToolStripMenuItem, Me.ToolStripMenuItem14, Me.FPSToolStripMenuItem})
         Me.ExibirToolStripMenuItem.Name = "ExibirToolStripMenuItem"
-        Me.ExibirToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.ExibirToolStripMenuItem.Size = New System.Drawing.Size(164, 24)
         Me.ExibirToolStripMenuItem.Text = "Display"
         '
         'BGToolStripMenuItem
@@ -389,7 +390,7 @@ Partial Class FrmMain
         '
         Me.PaletteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CarregarToolStripMenuItem, Me.ToolStripMenuItem17, Me.PaletteEditorToolStripMenuItem})
         Me.PaletteToolStripMenuItem.Name = "PaletteToolStripMenuItem"
-        Me.PaletteToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.PaletteToolStripMenuItem.Size = New System.Drawing.Size(164, 24)
         Me.PaletteToolStripMenuItem.Text = "Palette"
         '
         'CarregarToolStripMenuItem
@@ -413,7 +414,7 @@ Partial Class FrmMain
         '
         Me.ÁudioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AtivadoToolStripMenuItem, Me.ToolStripMenuItem6, Me.CanaisToolStripMenuItem})
         Me.ÁudioToolStripMenuItem.Name = "ÁudioToolStripMenuItem"
-        Me.ÁudioToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.ÁudioToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
         Me.ÁudioToolStripMenuItem.Text = "Audio"
         '
         'AtivadoToolStripMenuItem
@@ -421,19 +422,19 @@ Partial Class FrmMain
         Me.AtivadoToolStripMenuItem.Checked = True
         Me.AtivadoToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.AtivadoToolStripMenuItem.Name = "AtivadoToolStripMenuItem"
-        Me.AtivadoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.AtivadoToolStripMenuItem.Size = New System.Drawing.Size(137, 24)
         Me.AtivadoToolStripMenuItem.Text = "Turn On"
         '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(127, 6)
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(134, 6)
         '
         'CanaisToolStripMenuItem
         '
         Me.CanaisToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Square1ToolStripMenuItem, Me.Square2ToolStripMenuItem, Me.TriangleToolStripMenuItem, Me.NoiseToolStripMenuItem, Me.DMCToolStripMenuItem})
         Me.CanaisToolStripMenuItem.Name = "CanaisToolStripMenuItem"
-        Me.CanaisToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.CanaisToolStripMenuItem.Size = New System.Drawing.Size(137, 24)
         Me.CanaisToolStripMenuItem.Text = "Channels"
         '
         'Square1ToolStripMenuItem
@@ -480,14 +481,14 @@ Partial Class FrmMain
         '
         Me.ControlesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Controller1ToolStripMenuItem, Me.Controller2ToolStripMenuItem, Me.ToolStripMenuItem7, Me.ConfigurarToolStripMenuItem})
         Me.ControlesToolStripMenuItem.Name = "ControlesToolStripMenuItem"
-        Me.ControlesToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.ControlesToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
         Me.ControlesToolStripMenuItem.Text = "Controls"
         '
         'Controller1ToolStripMenuItem
         '
         Me.Controller1ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TecladoToolStripMenuItem, Me.JoystickToolStripMenuItem})
         Me.Controller1ToolStripMenuItem.Name = "Controller1ToolStripMenuItem"
-        Me.Controller1ToolStripMenuItem.Size = New System.Drawing.Size(157, 24)
+        Me.Controller1ToolStripMenuItem.Size = New System.Drawing.Size(219, 24)
         Me.Controller1ToolStripMenuItem.Text = "Controller 1"
         '
         'TecladoToolStripMenuItem
@@ -506,7 +507,7 @@ Partial Class FrmMain
         '
         Me.Controller2ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TecladoToolStripMenuItem1, Me.JoystickToolStripMenuItem1})
         Me.Controller2ToolStripMenuItem.Name = "Controller2ToolStripMenuItem"
-        Me.Controller2ToolStripMenuItem.Size = New System.Drawing.Size(157, 24)
+        Me.Controller2ToolStripMenuItem.Size = New System.Drawing.Size(219, 24)
         Me.Controller2ToolStripMenuItem.Text = "Controller 2"
         '
         'TecladoToolStripMenuItem1
@@ -524,7 +525,7 @@ Partial Class FrmMain
         'ToolStripMenuItem7
         '
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(154, 6)
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(216, 6)
         '
         'ConfigurarToolStripMenuItem
         '
@@ -536,7 +537,7 @@ Partial Class FrmMain
         '
         Me.TimingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FrameSkipToolStripMenuItem, Me.ToolStripMenuItem8, Me.LimitarFPSToolStripMenuItem})
         Me.TimingToolStripMenuItem.Name = "TimingToolStripMenuItem"
-        Me.TimingToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.TimingToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
         Me.TimingToolStripMenuItem.Text = "&Timing"
         '
         'FrameSkipToolStripMenuItem
@@ -593,13 +594,13 @@ Partial Class FrmMain
         Me.LimitarFPSToolStripMenuItem.Checked = True
         Me.LimitarFPSToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.LimitarFPSToolStripMenuItem.Name = "LimitarFPSToolStripMenuItem"
-        Me.LimitarFPSToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.LimitarFPSToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
         Me.LimitarFPSToolStripMenuItem.Text = "Limit FPS"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(172, 6)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(130, 6)
         '
         'AjudaToolStripMenuItem
         '
@@ -613,6 +614,11 @@ Partial Class FrmMain
         Me.AbreRom.Filter = "Nes ROMs (*.nes)|*.nes"
         Me.AbreRom.Title = "Abrir ROM"
         '
+        'SaveScreenShot
+        '
+        Me.SaveScreenShot.DefaultExt = "jpg"
+        Me.SaveScreenShot.Title = "Save Screenshot"
+        '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -624,7 +630,7 @@ Partial Class FrmMain
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.KeyPreview = True
         Me.MainMenuStrip = Me.EmuMenu
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "FrmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -713,5 +719,6 @@ Partial Class FrmMain
     Friend WithEvents MnuSep_1_3 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents MnuSS As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MnuSep_1_5 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents SaveScreenShot As System.Windows.Forms.SaveFileDialog
 
 End Class
