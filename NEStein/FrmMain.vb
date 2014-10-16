@@ -84,7 +84,8 @@
     End Sub
 
     '-------------------------------------------------------------------------
-
+    Private Sub SaveROM()
+    End Sub
     Private Sub PauseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PauseToolStripMenuItem.Click
         NES_Pause = Not NES_Pause
         PauseToolStripMenuItem.Checked = NES_Pause
@@ -223,7 +224,7 @@
     Private Sub MnuSS_Click(sender As Object, e As EventArgs) Handles MnuSS.Click
         Try
 
-            Me.NesScreen.Image.Save("C:\NewFileName.jpg", System.Drawing.Imaging.ImageFormat.Jpeg)
+            NesScreen.Image.Save("C:\NewFileName.jpg", System.Drawing.Imaging.ImageFormat.Jpeg)
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -238,6 +239,10 @@
     End Sub
 
     Private Sub MnuResume_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TecladoToolStripMenuItem1_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
