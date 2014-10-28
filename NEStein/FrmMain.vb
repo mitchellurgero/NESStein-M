@@ -242,7 +242,7 @@
 
     End Sub
 
-    Private Sub TecladoToolStripMenuItem1_Click(sender As Object, e As EventArgs)
+    Private Sub TecladoToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles TecladoToolStripMenuItem1.Click
 
     End Sub
 End Class

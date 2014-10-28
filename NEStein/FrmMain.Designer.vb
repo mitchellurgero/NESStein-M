@@ -263,7 +263,7 @@ Partial Class FrmMain
         '
         Me.VideoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZoomToolStripMenuItem, Me.InterpolationToolStripMenuItem, Me.ToolStripMenuItem15, Me.ExibirToolStripMenuItem, Me.ToolStripMenuItem16, Me.PaletteToolStripMenuItem})
         Me.VideoToolStripMenuItem.Name = "VideoToolStripMenuItem"
-        Me.VideoToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
+        Me.VideoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.VideoToolStripMenuItem.Text = "&Video"
         '
         'ZoomToolStripMenuItem
@@ -414,7 +414,7 @@ Partial Class FrmMain
         '
         Me.ÁudioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AtivadoToolStripMenuItem, Me.ToolStripMenuItem6, Me.CanaisToolStripMenuItem})
         Me.ÁudioToolStripMenuItem.Name = "ÁudioToolStripMenuItem"
-        Me.ÁudioToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
+        Me.ÁudioToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.ÁudioToolStripMenuItem.Text = "Audio"
         '
         'AtivadoToolStripMenuItem
@@ -481,7 +481,7 @@ Partial Class FrmMain
         '
         Me.ControlesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Controller1ToolStripMenuItem, Me.Controller2ToolStripMenuItem, Me.ToolStripMenuItem7, Me.ConfigurarToolStripMenuItem})
         Me.ControlesToolStripMenuItem.Name = "ControlesToolStripMenuItem"
-        Me.ControlesToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
+        Me.ControlesToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.ControlesToolStripMenuItem.Text = "Controls"
         '
         'Controller1ToolStripMenuItem
@@ -494,13 +494,13 @@ Partial Class FrmMain
         'TecladoToolStripMenuItem
         '
         Me.TecladoToolStripMenuItem.Name = "TecladoToolStripMenuItem"
-        Me.TecladoToolStripMenuItem.Size = New System.Drawing.Size(131, 24)
-        Me.TecladoToolStripMenuItem.Text = "Teclado"
+        Me.TecladoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.TecladoToolStripMenuItem.Text = "Keyboard"
         '
         'JoystickToolStripMenuItem
         '
         Me.JoystickToolStripMenuItem.Name = "JoystickToolStripMenuItem"
-        Me.JoystickToolStripMenuItem.Size = New System.Drawing.Size(131, 24)
+        Me.JoystickToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.JoystickToolStripMenuItem.Text = "Joystick"
         '
         'Controller2ToolStripMenuItem
@@ -513,13 +513,13 @@ Partial Class FrmMain
         'TecladoToolStripMenuItem1
         '
         Me.TecladoToolStripMenuItem1.Name = "TecladoToolStripMenuItem1"
-        Me.TecladoToolStripMenuItem1.Size = New System.Drawing.Size(131, 24)
-        Me.TecladoToolStripMenuItem1.Text = "Teclado"
+        Me.TecladoToolStripMenuItem1.Size = New System.Drawing.Size(175, 24)
+        Me.TecladoToolStripMenuItem1.Text = "Keyboard"
         '
         'JoystickToolStripMenuItem1
         '
         Me.JoystickToolStripMenuItem1.Name = "JoystickToolStripMenuItem1"
-        Me.JoystickToolStripMenuItem1.Size = New System.Drawing.Size(131, 24)
+        Me.JoystickToolStripMenuItem1.Size = New System.Drawing.Size(175, 24)
         Me.JoystickToolStripMenuItem1.Text = "Joystick"
         '
         'ToolStripMenuItem7
@@ -537,7 +537,7 @@ Partial Class FrmMain
         '
         Me.TimingToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FrameSkipToolStripMenuItem, Me.ToolStripMenuItem8, Me.LimitarFPSToolStripMenuItem})
         Me.TimingToolStripMenuItem.Name = "TimingToolStripMenuItem"
-        Me.TimingToolStripMenuItem.Size = New System.Drawing.Size(133, 24)
+        Me.TimingToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.TimingToolStripMenuItem.Text = "&Timing"
         '
         'FrameSkipToolStripMenuItem
@@ -600,7 +600,7 @@ Partial Class FrmMain
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(130, 6)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(172, 6)
         '
         'AjudaToolStripMenuItem
         '
